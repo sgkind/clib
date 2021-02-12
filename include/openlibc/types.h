@@ -186,6 +186,11 @@ struct eth_addr64 {
 #define ETH_ADDR64_C(A,B,C,D,E,F,G,H) \
     { { { 0x##A, 0x##B, 0x##C, 0x##D, 0x##E, 0x##F, 0x##G, 0x##H } } }
 
+
+typedef intptr_t    olc_int_t;
+typedef uintptr_t   olc_uint_t;
+typedef intptr_t    olc_flag_t;
+
 #ifdef __cplusplus
 }
 #endif

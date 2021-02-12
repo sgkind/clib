@@ -30,6 +30,7 @@ SET(SRC_LIST
         src/simap.c
         src/sset.c
         src/vector.c
+        src/queue.c
         )
 
 add_library(${PROJECT_NAME} SHARED ${SRC_LIST})
